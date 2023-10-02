@@ -6,7 +6,7 @@ const Content = ({data}) => {
   return (
     <div className='flex flex-col w-screen  justify-center items-center '>
       <Filter />
-      <div className=' w-[80%] flex flex-wrap'>
+      <div className=' w-[70%] flex flex-wrap'>
       <Card  data={data}/>
       </div>
     </div>
