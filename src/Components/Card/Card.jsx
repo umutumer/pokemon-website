@@ -19,7 +19,7 @@ const Card = ({ data }) => {
       } else if (dat.color === "red") {
         gradientBackground = "linear-gradient(to bottom, #ff0000, #cc0000)";
       } else {
-        gradientBackground = "white"; // Varsayılan olarak beyaz arka plan
+        gradientBackground = "white"; 
       }
 
       return (

@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from "../../images/pokemon-logo.png"
 const Navbar = () => {
   return (
-    <div className='flex justify-center w-full h-20 bg-orange-600 text-white  items-center'>
+    <div className='flex justify-center w-screen h-20 bg-orange-600 text-white  items-center'>
       <div>
         <img className='w-20' src={Logo} alt="" />
       </div>
